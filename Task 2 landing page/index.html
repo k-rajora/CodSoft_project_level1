@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Fever</title>
+  <link rel="stylesheet" href="styless.css">
+  <link rel="shortcut icon" href="images/otaku.png" type="image/x-icon">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">AnimeFever</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#genres">Genres</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    
+    <div class="hero-slides">
+      <div class="slide" style="background-image: url('images/bleach.jpg');"></div>
+      <div class="slide" style="background-image: url('images/death\ note.jpg');"></div>
+      <div class="slide" style="background-image: url('images/tokyo\ ghoul.png');"></div>
+      <div class="slide" style="background-image: url('images/demon\ slayer.png');"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Welcome to Anime Fever</h1>
+      <p>Your Ultimate Anime Destination</p>
+      <a href="#trending" class="cta-button">Start Exploring</a>
+    </div>
+  </section>
+
+  <!-- Trending Anime Section -->
+  <section class="content" id="trending">
+    <h2>Trending Anime</h2>
+    <div class="anime-gallery">
+      <div class="anime-item">
+        <img src="images/naruto.jpg" alt="Anime 1">
+        <p>naruto</p>
+      </div>
+      <div class="anime-item">
+        <img src="images/tanjiro.jpg" alt="Anime 2">
+        <p>demon slayer</p>
+      </div>
+      <div class="anime-item">
+        <img src="images/eren.jpg" alt="Anime 3">
+        <p>Attack on titan</p>
+      </div>
+      <div class="anime-item">
+        <img src="images/light yagami.jpg" alt="Anime 4">
+        <p>death note</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content" id="genres">
+    <h2>Genres</h2>
+    <div class="genres">
+      <div class="genre-item">
+        <img src="images/AOT.png" alt="Action">
+        <p>Action</p>
+      </div>
+      <div class="genre-item">
+        <img src="images/bleach.jpg" alt="Adventure">
+        <p>Adventure</p>
+      </div>
+      <div class="genre-item">
+        <img src="images/naruto shippuden.jpg" alt="Fantasy">
+        <p>Fantasy</p>
+      </div>
+      <div class="genre-item">
+        <img src="images/demon slayer.png" alt="Romance">
+        <p>Romance</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="content" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="anime">Favorite Anime:</label>
+      <input type="text" id="anime" name="anime" required>
+      
+      <button type="submit" class="submit-button">Submit</button>
+    </form>
+  </section>
+
+
+  <footer>
+    <p>© 2024 Anime Fever. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
